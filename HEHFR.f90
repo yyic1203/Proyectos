@@ -14,11 +14,11 @@ program HEHFR
 
   DO i= 1, n
     DO j= 1, n
-			P(i,j)=0.0D0 !!Inicialización de la matriz de solapamiento
+			P(i,j)=0.0D0 !!Inicialización de la matriz de densidad poblacional
     END DO
   END DO
 
-	DO i= 1, n
+  DO i= 1, n
     DO j= 1, n
 			S(i,j)=0.0D0 !!Inicialización de la matriz de solapamiento
     END DO
